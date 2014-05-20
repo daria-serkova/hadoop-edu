@@ -1,0 +1,1 @@
+mvn clean install & hadoop jar target/hadoop-0.0.1-SNAPSHOT.jar com.daria.edu.hadoop.wordcount.WordCountLocalRunner

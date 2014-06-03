@@ -12,9 +12,8 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<hadoop.version>2.2.0</hadoop.version>
-		<junit.version>3.8.1</junit.version>
+		<junit.version>3.8.1</junit.version>	
 	</properties>
-
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.hadoop</groupId>
@@ -22,7 +21,6 @@
 			<scope>provided</scope>
 			<version>${hadoop.version}</version>
 		</dependency>
-		
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
